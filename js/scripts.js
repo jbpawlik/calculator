@@ -39,7 +39,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		const number1 = parseInt($("#multiply1").val());
 		const number2 = parseInt($("#multiply2").val());
-		const result = subtract(number1, number2);
+		const result = multiply(number1, number2);
 		$('.outputMultiply').text(result);
 	})
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		const number1 = parseInt($("#divide1").val());
 		const number2 = parseInt($("#divide2").val());
-		const result = subtract(number1, number2);
+		const result = divide(number1, number2);
 		$('.outputDivide').text(result);
 	})
 })
